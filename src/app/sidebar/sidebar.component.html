@@ -1,0 +1,161 @@
+<nav >
+    <div class="position-sticky pt-3">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item">
+            <div class="accordion" id="usersAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingUsers">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUsers" aria-expanded="true" aria-controls="collapseUsers">
+                    <i class="fas fa-users fa-fw me-3"></i><span>Users</span>
+                  </button>
+                </h2>
+                <div id="collapseUsers" class="accordion-collapse collapse" aria-labelledby="headingUsers" data-bs-parent="#usersAccordion">
+                  <div class="accordion-body">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link"  routerLink="/createUser">
+                            <i class="fas fa-user-plus fa-fw me-3"></i><span>Add User</span>
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/createUser">View Users</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Edit User</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Delete User</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="accordion" id="competitionAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingCompetition">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCompetition" aria-expanded="true" aria-controls="collapseCompetition">
+                    <i class="fas fa-trophy fa-fw me-3"></i><span>Competition</span>
+                  </button>
+                </h2>
+                <div id="collapseCompetition" class="accordion-collapse collapse" aria-labelledby="headingCompetition" data-bs-parent="#competitionAccordion">
+                  <div class="accordion-body">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Add Competition</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">View Competitions</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Edit Competition</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Delete Competition</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <div class="accordion" id="organizerAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOrganizer">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOrganizer" aria-expanded="true" aria-controls="collapseOrganizer">
+                    <i class="fas fa-user fa-fw me-3"></i><span>Organizer</span>
+                  </button>
+                </h2>
+                <div id="collapseOrganizer" class="accordion-collapse collapse" aria-labelledby="headingOrganizer" data-bs-parent="#organizerAccordion">
+                  <div class="accordion-body">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Add Organizer</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">View Organizers</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Edit Organizer</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Delete Organizer</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <div class="accordion" id="registrationAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingRegistration">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegistration" aria-expanded="true" aria-controls="collapseRegistration">
+                    <i class="fas fa-clipboard-list fa-fw me-3"></i><span>Registration</span>
+                  </button>
+                </h2>
+                <div id="collapseRegistration" class="accordion-collapse collapse" aria-labelledby="headingRegistration" data-bs-parent="#registrationAccordion">
+                  <div class="accordion-body">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Register for Competition</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">View Registrations</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Edit Registration</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Cancel Registration</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <div class="accordion" id="resultAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingResult">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseResult" aria-expanded="true" aria-controls="collapseResult">
+                    <i class="fas fa-chart-bar fa-fw me-3"></i><span>Result</span>
+                  </button>
+                </h2>
+                <div id="collapseResult" class="accordion-collapse collapse" aria-labelledby="headingResult" data-bs-parent="#resultAccordion">
+                  <div class="accordion-body">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">View Results</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Upload Results</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Edit Result</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Delete Result</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </nav>

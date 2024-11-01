@@ -1,0 +1,11 @@
+.container {
+    max-width: 600px; /* Limita el ancho del formulario */
+  }
+  
+  form {
+    background-color: #f8f9fa; /* Color de fondo del formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
